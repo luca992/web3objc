@@ -9,7 +9,7 @@ Pod::Spec.new do |spec|
     spec.author       = {"Park Sung Sik" => "super053@gmail.com", }
     spec.source       = { :git => 'https://github.com/luca992/web3objc.git', :tag => spec.version.to_s }
     spec.source_files = 'Web3Objc/Web3/**/*.{c,h,swift}'
-    s.module_name = 'web3'
+    s.module_name = 'web3objc'
     spec.dependency 'TrezorCrypto', '~> 0.0.9'
     spec.dependency 'secp256k1_ios', '~> 0.1.3'
     spec.dependency 'RLP-ObjC', '~> 1.0.7'
